@@ -1,6 +1,3 @@
-/* BUGS
-  - unfix bg
-*/
 html,
 body {
   height: 100%;
@@ -20,10 +17,18 @@ body {
   overflow-x: hidden;
 }
 
+::-moz-selection {
+  background-color: #ff880042;
+}
+
+::selection {
+  background-color: #ff880042;
+}
+
 li {
   list-style-type: none;
   list-style: none;
-  line-height: 2.30;
+  line-height: 2.3;
 }
 
 img {
@@ -56,7 +61,7 @@ h6 {
 }
 
 p {
-  font-size: calc(1.200rem + .03vw);
+  font-size: calc(1.2rem + 0.03vw);
   font-weight: 200;
   line-height: 1.8;
 }
@@ -280,7 +285,7 @@ a {
 }
 
 .documentation_section a {
-  font-size: 1.200rem;
+  font-size: 1.2rem;
   color: #ff8800;
 }
 
@@ -343,8 +348,8 @@ a {
 }
 
 @media only screen and (min-width: 320px) {
-  * {
-    overflow-x: hidden;
+  img {
+    display: none;
   }
   .container {
     width: 90%;
