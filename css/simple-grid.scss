@@ -365,7 +365,13 @@ $breakpoint-large: 60em; // 960px
 // for devices
 
 @media only screen and (min-width: 320px) {
-  img {
+  .bg_orange-yellow {
+    display: none;
+  }
+  .bg_orange-blue-green {
+    display: none;
+  }
+  .bg_violet-blue {
     display: none;
   }
   .container {
