@@ -30,6 +30,10 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  overflow: auto;
+}
+
 * {
   font-family: $font-family;
   color: $dark-grey;
@@ -141,6 +145,18 @@ $breakpoint-large: 60em; // 960px
 
   @media only screen and (min-width: $breakpoint-small) {
     width: 80%;
+    h1 {
+      font-size: 1.8rem;
+    }
+    .bg_orange-yellow {
+      display: none;
+    }
+    .bg_orange-blue-green {
+      display: none;
+    }
+    .bg_violet-blue {
+      display: none;
+    }
   }
 
   @media only screen and (min-width: $breakpoint-large) {
@@ -364,18 +380,6 @@ $breakpoint-large: 60em; // 960px
 // for devices
 
 @media only screen and (min-width : 321px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-  // .bg_orange-yellow {
-  //   display: none;
-  // }
-  // .bg_orange-blue-green {
-  //   display: none;
-  // }
-  // .bg_violet-blue {
-  //   display: none;
-  // }
   .container {
     width: 90%;
   }

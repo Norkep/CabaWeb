@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  overflow: auto;
+}
+
 * {
   font-family: "Work Sans", sans-serif;
   color: #000;
@@ -115,6 +119,18 @@ a {
 @media only screen and (min-width: 18.8em) {
   .container {
     width: 80%;
+  }
+  .container h1 {
+    font-size: 1.8rem;
+  }
+  .container .bg_orange-yellow {
+    display: none;
+  }
+  .container .bg_orange-blue-green {
+    display: none;
+  }
+  .container .bg_violet-blue {
+    display: none;
   }
 }
 
@@ -347,9 +363,6 @@ a {
 }
 
 @media only screen and (min-width: 321px) {
-  h1 {
-    font-size: 1.8rem;
-  }
   .container {
     width: 90%;
   }
