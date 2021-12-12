@@ -1,5 +1,4 @@
 /* BUGS
-  - a link on `cards`
   - unfix bg
 */
 html,
@@ -18,7 +17,6 @@ body {
   font-family: "Work Sans", sans-serif;
   color: #000;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 li {
@@ -32,7 +30,7 @@ img {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 h2 {
@@ -40,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.575rem;
 }
 
 h4 {
