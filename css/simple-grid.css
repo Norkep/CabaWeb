@@ -14,7 +14,6 @@ body {
   font-family: "Work Sans", sans-serif;
   color: #000;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -359,8 +358,6 @@ a {
   }
   .container {
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
   }
   .bg_violet-blue {
     width: 180vw;

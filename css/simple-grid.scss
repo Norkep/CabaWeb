@@ -34,7 +34,6 @@ body {
   font-family: $font-family;
   color: $dark-grey;
   line-height: $font-height;
-  overflow-x: hidden;
 }
 
 ::selection {
@@ -376,8 +375,6 @@ $breakpoint-large: 60em; // 960px
   }
   .container {
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
   }
   .bg_violet-blue {
     width: 180vw;
