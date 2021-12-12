@@ -39,6 +39,7 @@ body {
   font-family: $font-family;
   color: $dark-grey;
   line-height: $font-height;
+  overflow-x: hidden;
 }
 
 li {
@@ -321,6 +322,9 @@ $breakpoint-large: 60em; // 960px
 // for devices
 
 @media only screen and (min-width: 320px) {
+  * {
+    overflow-x:hidden;
+  }
 .container {
     width: 90%;
     margin-right:auto;
