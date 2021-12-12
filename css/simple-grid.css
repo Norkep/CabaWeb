@@ -1,0 +1,357 @@
+/* BUGS
+  - a link on `cards`
+  - unfix bg
+*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
+  list-style: none;
+  line-height: 2.30;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.225rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: calc(1.200rem + .03vw);
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration: none;
+  color: #ff8800;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 18.8em) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1.5%;
+  display: block;
+  min-height: 0.125rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33333%;
+}
+
+.col-2-sm {
+  width: 12.66667%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33333%;
+}
+
+.col-5-sm {
+  width: 37.66667%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33333%;
+}
+
+.col-8-sm {
+  width: 62.66667%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33333%;
+}
+
+.col-11-sm {
+  width: 87.66667%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+@media only screen and (min-width: 45em) {
+  .col-1 {
+    width: 4.33333%;
+  }
+  .col-2 {
+    width: 12.66667%;
+  }
+  .col-3 {
+    width: 21%;
+  }
+  .col-4 {
+    width: 29.33333%;
+  }
+  .col-5 {
+    width: 37.66667%;
+  }
+  .col-6 {
+    width: 46%;
+  }
+  .col-7 {
+    width: 54.33333%;
+  }
+  .col-8 {
+    width: 62.66667%;
+  }
+  .col-9 {
+    width: 71%;
+  }
+  .col-10 {
+    width: 79.33333%;
+  }
+  .col-11 {
+    width: 87.66667%;
+  }
+  .col-12 {
+    width: 96%;
+  }
+  .hidden-sm {
+    display: block;
+  }
+}
+
+.navbar {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 120px;
+  height: auto;
+}
+
+.sommary {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sommary li {
+  line-height: 3;
+}
+
+.documentation_section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.documentation_section img {
+  position: initial;
+}
+
+.documentation_section a {
+  font-size: 1.200rem;
+  color: #ff8800;
+}
+
+.bg_violet-blue {
+  background-image: url(../img/assets/bg_grad-violetblue.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  top: -10vh;
+  left: -9vh;
+  width: 1050vw;
+  height: 100vh;
+}
+
+.bg_orange-blue-green {
+  background-image: url(../img/assets/bg_grad_orangeyellowgreen.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  top: -40vh;
+  left: -30vh;
+  width: 1050vw;
+  height: 100vh;
+}
+
+.bg_orange-yellow {
+  background-image: url(../img/assets/bg_grad-orangeyellow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  top: -50vh;
+  left: -30vh;
+  width: 1050px;
+  height: 100vh;
+}
+
+.card {
+  background-color: #f8f8f8b7;
+  font-weight: 400;
+  width: 90%;
+  height: 10rem;
+  border-radius: 7px;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  overflow: hidden;
+  text-decoration: underline;
+  text-decoration: none;
+  border: solid 1px #dadada;
+}
+
+.card img {
+  width: 50px;
+}
+
+.card a {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) {
+  .container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bg_violet-blue {
+    width: 180vw;
+    top: -35vw;
+    left: 20vw;
+  }
+}
+/*# sourceMappingURL=simple-grid.css.map */
