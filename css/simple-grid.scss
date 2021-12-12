@@ -145,18 +145,18 @@ $breakpoint-large: 60em; // 960px
 
   @media only screen and (min-width: $breakpoint-small) {
     width: 80%;
-    h1 {
-      font-size: 1.8rem;
-    }
-    .bg_orange-yellow {
-      display: none;
-    }
-    .bg_orange-blue-green {
-      display: none;
-    }
-    .bg_violet-blue {
-      display: none;
-    }
+    // h1 {
+    //   font-size: 1.8rem;
+    // }
+    // .bg_orange-yellow {
+    //   display: none;
+    // }
+    // .bg_orange-blue-green {
+    //   display: none;
+    // }
+    // .bg_violet-blue {
+    //   display: none;
+    // }
   }
 
   @media only screen and (min-width: $breakpoint-large) {
@@ -383,9 +383,9 @@ $breakpoint-large: 60em; // 960px
   .container {
     width: 90%;
   }
-  .bg_violet-blue {
-    width: 180vw;
-    top: -35vw;
-    left: 20vw;
-  }
+  // .bg_violet-blue {
+  //   width: 180vw;
+  //   top: -35vw;
+  //   left: 20vw;
+  // }
 }

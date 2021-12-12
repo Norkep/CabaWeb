@@ -120,18 +120,6 @@ a {
   .container {
     width: 80%;
   }
-  .container h1 {
-    font-size: 1.8rem;
-  }
-  .container .bg_orange-yellow {
-    display: none;
-  }
-  .container .bg_orange-blue-green {
-    display: none;
-  }
-  .container .bg_violet-blue {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -365,11 +353,6 @@ a {
 @media only screen and (min-width: 321px) {
   .container {
     width: 90%;
-  }
-  .bg_violet-blue {
-    width: 180vw;
-    top: -35vw;
-    left: 20vw;
   }
 }
 /*# sourceMappingURL=simple-grid.css.map */
